@@ -5,7 +5,7 @@ const Bodies = Matter.Bodies;
 const Body = Matter.Body;
 const Constraint = Matter.Constraint;
 var tree, treeImg, stone, stoneImg, ground, boy, boyImg;
-var score;
+
 
 
 function setup() {
@@ -42,7 +42,7 @@ function draw() {
   textSize(24);
   text("PRESS SPACE TO GET A SECOND CHANCE TO PLAY", 200,200);
   text("AND ENJOY THE GAME BY PLUCKING MANGOES",300,300);
-  text("SCORE:"+score,100,100);
+  
   ground.display();
   tree.display();
   boy.display();
